@@ -1,6 +1,6 @@
 package builder;
 
-public class strangeCounterBuilder implements CounterBuilder {
+public class StrangeCounterBuilder implements CounterBuilder {
 
     private CounterBrain brain;
     private Screen screen;
