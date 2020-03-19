@@ -1,5 +1,5 @@
-package bridge;
+package adapter;
 
-public interface Calculator {
-    int multiply(int a, int b);
+public interface Pluser {
+    int plus(int a, int b);
 }

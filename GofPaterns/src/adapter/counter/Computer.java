@@ -1,4 +1,4 @@
-package bridge.adaptee.counter;
+package adapter.counter;
 
 class Computer implements Counter {
     @Override

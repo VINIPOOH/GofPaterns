@@ -1,4 +1,4 @@
-package bridge.adaptee.counter;
+package adapter.counter;
 
 public class ComputerFactory implements CounterCreator {
     @Override

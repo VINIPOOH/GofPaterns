@@ -1,4 +1,4 @@
-package bridge.adaptee.counter;
+package adapter.counter;
 
 public interface CounterCreator {
     Counter factoryMethod();

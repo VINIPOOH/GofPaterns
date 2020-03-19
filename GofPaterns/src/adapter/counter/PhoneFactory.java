@@ -1,4 +1,4 @@
-package bridge.adaptee.counter;
+package adapter.counter;
 
 class PhoneFactory implements CounterCreator {
     @Override
