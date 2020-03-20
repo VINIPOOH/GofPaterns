@@ -1,4 +1,4 @@
-package composite;
+package decorator;
 
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 

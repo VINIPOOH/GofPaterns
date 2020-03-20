@@ -2,7 +2,7 @@ package decorator;
 
 import java.util.LinkedList;
 
-public class PrinterComposite implements Printer {
+public class PrinterSimpleDecorator implements Printer {
 
     private LinkedList<Printer> printers =new LinkedList<>();
 
