@@ -11,7 +11,7 @@ class StrangeCountDevise implements Counter {
 
     @Override
     public int sum(int a, int b) {
-        screen.show(counterBrain.count(a,b));
-        return a+b;
+        screen.show(counterBrain.count(a, b));
+        return a + b;
     }
 }

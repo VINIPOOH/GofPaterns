@@ -1,4 +1,4 @@
-package straegy;
+package strategy;
 
 // Реализуем алгоритм с использованием интерфейса стратегии
 class ConcreteStrategyAdd implements Strategy {

@@ -4,19 +4,20 @@ public class StrangeCounterBuilder implements CounterBuilder {
 
     private CounterBrain brain;
     private Screen screen;
+
     @Override
     public void counterBrain(CounterBrain counterBrain) {
-        brain=counterBrain;
+        brain = counterBrain;
 
     }
 
     @Override
     public void screen(Screen screen) {
-        this.screen=screen;
+        this.screen = screen;
     }
 
     @Override
     public Counter build() {
-        return new StrangeCountDevise(brain,screen);
+        return new StrangeCountDevise(brain, screen);
     }
 }

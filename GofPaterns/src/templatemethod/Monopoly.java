@@ -1,6 +1,6 @@
 package templatemethod;
 
-public class Monopoly extends Game{
+public class Monopoly extends Game {
 
     @Override
     protected void initializeGame() {

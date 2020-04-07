@@ -4,7 +4,7 @@ import java.util.LinkedList;
 
 public class PrinterComposite implements Printer {
 
-    private LinkedList<Printer> printers =new LinkedList<>();
+    private LinkedList<Printer> printers = new LinkedList<>();
 
     @Override
     public void print() {

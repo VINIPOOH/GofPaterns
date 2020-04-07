@@ -2,23 +2,21 @@ package templatemethod;
 
 public class GamesManager {
 
-    public static void main (String [] args){
+    public static void main(String[] args) {
         final GameCode gameCode = GameCode.CHESS;
 
         Game game;
 
-        switch (gameCode){
-            case CHESS :
-                game = new com.designpatterns.templatemethod.Chess();
+        switch (gameCode) {
+            case CHESS:
+                game = new Chess();
                 break;
-            case MONOPOLY :
-                game = new com.designpatterns.templatemethod.Monopoly();
+            case MONOPOLY:
+                game = new Monopoly();
                 break;
-            default :
+            default:
                 throw new IllegalStateException();
         }
-
         game.playOneGame(2);
     }
-
 }

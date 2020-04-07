@@ -1,5 +1,5 @@
 package abstractfactory;
 
 public interface CounterBrain {
-    int count(int ... a);
+    int count(int... a);
 }

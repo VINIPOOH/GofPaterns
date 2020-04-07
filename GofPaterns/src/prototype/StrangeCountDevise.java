@@ -12,12 +12,12 @@ class StrangeCountDevise implements CounterPrototype {
 
     @Override
     public int sum(int a, int b) {
-        screen.show(counterBrain.count(a,b));
-        return a+b;
+        screen.show(counterBrain.count(a, b));
+        return a + b;
     }
 
     @Override
     public CounterPrototype clone() {
-        return new StrangeCountDevise(counterBrain.clone(),screen.clone());
+        return new StrangeCountDevise(counterBrain.clone(), screen.clone());
     }
 }

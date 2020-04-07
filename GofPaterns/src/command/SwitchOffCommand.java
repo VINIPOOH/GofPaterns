@@ -1,6 +1,8 @@
 package command;
 
-/** The Command for turning off the light - ConcreteCommand #2 */
+/**
+ * The Command for turning off the light - ConcreteCommand #2
+ */
 class SwitchOffCommand implements Command {
     private final Light light;
 

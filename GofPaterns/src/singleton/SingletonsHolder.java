@@ -1,7 +1,7 @@
 package singleton;
 
 public class SingletonsHolder {
-    private static Counter pc = new StrangeCountDevise(new CPU(),new ComputerScreen());
+    private static Counter pc = new StrangeCountDevise(new CPU(), new ComputerScreen());
     private static Counter phone = new StrangeCountDevise(new PhoneCortexACLU(), new PhoneScreen());
 
     private SingletonsHolder() {

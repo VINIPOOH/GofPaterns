@@ -14,13 +14,13 @@ class StateContext {
         state.heat(this);
     }
 
+    public State getState() {
+        return state;
+    }
+
     public void setState(State state) {
         System.out.println("Changing state to " + state.getName() + "...");
         this.state = state;
-    }
-
-    public State getState() {
-        return state;
     }
 
 }

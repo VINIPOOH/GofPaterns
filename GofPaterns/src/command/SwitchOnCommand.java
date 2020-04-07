@@ -1,6 +1,8 @@
 package command;
 
-/** The Command for turning on the light - ConcreteCommand #1 */
+/**
+ * The Command for turning on the light - ConcreteCommand #1
+ */
 public class SwitchOnCommand implements Command {
     private final Light light;
 

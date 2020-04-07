@@ -11,7 +11,7 @@ class Computer implements Counter {
 
     @Override
     public int sum(int a, int b) {
-        computerScreen.show(cpu.count(a,b));
-        return a+b;
+        computerScreen.show(cpu.count(a, b));
+        return a + b;
     }
 }

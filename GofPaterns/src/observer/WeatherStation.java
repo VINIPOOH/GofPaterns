@@ -4,7 +4,7 @@ public class WeatherStation {
     public static void main(String[] args) {
         WeatherData weatherData = new WeatherData();
 
-        Observer currentDisplay = new CurrentConditionsDisplay ();
+        Observer currentDisplay = new CurrentConditionsDisplay();
 
         weatherData.registerObserver(currentDisplay);
 

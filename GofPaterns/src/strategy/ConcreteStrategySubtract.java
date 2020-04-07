@@ -1,4 +1,4 @@
-package straegy;
+package strategy;
 
 class ConcreteStrategySubtract implements Strategy {
 

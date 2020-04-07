@@ -12,12 +12,12 @@ class StrangeCountDevise implements Counter {
 
     @Override
     public int sum(int a, int b) {
-        screen.show(counterBrain.count(a,b));
-        return a+b;
+        screen.show(counterBrain.count(a, b));
+        return a + b;
     }
 
     @Override
     public Counter clone() {
-        return new StrangeCountDevise(counterBrain.clone(),screen.clone());
+        return new StrangeCountDevise(counterBrain.clone(), screen.clone());
     }
 }

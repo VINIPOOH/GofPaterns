@@ -1,4 +1,4 @@
-package straegy;
+package strategy;
 
 // Класс контекста использующий интерфейс стратегии
 class Context {

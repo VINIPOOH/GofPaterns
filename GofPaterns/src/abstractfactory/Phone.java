@@ -12,7 +12,7 @@ class Phone implements Counter {
 
     @Override
     public int sum(int a, int b) {
-        phoneScreen.show(phoneCortexACLU.count(a,b));
-        return a+b;
+        phoneScreen.show(phoneCortexACLU.count(a, b));
+        return a + b;
     }
 }

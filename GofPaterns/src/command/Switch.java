@@ -2,7 +2,9 @@ package command;
 
 import java.util.HashMap;
 
-/** The Invoker class */
+/**
+ * The Invoker class
+ */
 class Switch {
     private final HashMap<String, Command> commandMap = new HashMap<>();
 

@@ -12,7 +12,7 @@ public abstract class Game {
 
     protected abstract void printWinner();
 
-    public final void playOneGame(int playersAmount){
+    public final void playOneGame(int playersAmount) {
         setPlayersAmount(playersAmount);
 
         initializeGame();
@@ -22,7 +22,7 @@ public abstract class Game {
         printWinner();
     }
 
-    public void setPlayersAmount(int playersAmount){
+    public void setPlayersAmount(int playersAmount) {
         this.playersAmount = playersAmount;
     }
 

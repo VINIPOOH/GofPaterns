@@ -1,4 +1,5 @@
-package straegy;
+package strategy;
+
 // Тестовое приложение
 class StrategyExample {
 
@@ -7,16 +8,16 @@ class StrategyExample {
         Context context = new Context();
 
         context.setStrategy(new ConcreteStrategyAdd());
-        int resultA = context.executeStrategy(3,4);
+        int resultA = context.executeStrategy(3, 4);
 
         context.setStrategy(new ConcreteStrategySubtract());
-        int resultB = context.executeStrategy(3,4);
+        int resultB = context.executeStrategy(3, 4);
 
         context.setStrategy(new ConcreteStrategyMultiply());
-        int resultC = context.executeStrategy(3,4);
+        int resultC = context.executeStrategy(3, 4);
 
-        System.out.println("Result A : " + resultA );
-        System.out.println("Result B : " + resultB );
-        System.out.println("Result C : " + resultC );
+        System.out.println("Result A : " + resultA);
+        System.out.println("Result B : " + resultB);
+        System.out.println("Result C : " + resultC);
     }
 }

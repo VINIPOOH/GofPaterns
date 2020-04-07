@@ -3,7 +3,7 @@ package decorator;
 import java.util.LinkedList;
 
 public class PrevPrinterIvanDecorator implements Printer {
-    private LinkedList<Printer> printers =new LinkedList<>();
+    private LinkedList<Printer> printers = new LinkedList<>();
 
     @Override
     public void print() {

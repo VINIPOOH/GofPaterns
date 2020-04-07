@@ -1,6 +1,8 @@
 package command;
 
-/** The Receiver class */
+/**
+ * The Receiver class
+ */
 class Light {
     public void turnOn() {
         System.out.println("The light is on");

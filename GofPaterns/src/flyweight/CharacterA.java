@@ -2,7 +2,7 @@ package flyweight;
 
 public class CharacterA extends EnglishCharacter {
 
-    public CharacterA(){
+    public CharacterA() {
         symbol = 'A';
         width = 10;
         height = 20;
